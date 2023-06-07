@@ -30,6 +30,9 @@ const HomeCV = () => {
                                     'Web Developer', 
                                     2000,
 
+                                    () => {
+                                      console.log("Sequence completed");
+                                    }
                                 ]}
                                 wrapper="span"
                                 cursor={true}
